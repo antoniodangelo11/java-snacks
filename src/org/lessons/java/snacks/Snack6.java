@@ -9,11 +9,11 @@ public class Snack6 {
         // Numero che può variare
         int totalSeconds = 5000;
 
-        int ore = totalSeconds / 3600;
-        int minuti = (totalSeconds % 3600) / 60;
-        int secondi = totalSeconds % 60;
+        int hours = totalSeconds / 3600;
+        int minutes = (totalSeconds % 3600) / 60;
+        int seconds = totalSeconds % 60;
 
-        String timeFormat = String.format("%02d:%02d:%02d", ore, minuti, secondi);
+        String timeFormat = String.format("%02d:%02d:%02d", hours, minutes, seconds);
 
         System.out.println("Tempo convertito: " + timeFormat);
     }
